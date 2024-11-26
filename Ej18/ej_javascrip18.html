@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio18</title>
+    <link rel="stylesheet" href="ej18.css">
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" id="calculadora" disabled />
+        <div class="botones">
+            <button class="digito" onclick="agregarNumero(7)">7</button>
+            <button class="digito" onclick="agregarNumero(8)">8</button>
+            <button class="digito" onclick="agregarNumero(9)">9</button>
+            <button class="operacion" onclick="establecerOperacion('+')">+</button>
+            
+            <button class="digito" onclick="agregarNumero(4)">4</button>
+            <button class="digito" onclick="agregarNumero(5)">5</button>
+            <button class="digito" onclick="agregarNumero(6)">6</button>
+            <button class="operacion" onclick="establecerOperacion('-')">-</button>
+            
+            <button class="digito" onclick="agregarNumero(1)">1</button>
+            <button class="digito" onclick="agregarNumero(2)">2</button>
+            <button class="digito" onclick="agregarNumero(3)">3</button>
+            <button class="operacion" onclick="establecerOperacion('*')">x</button>
+            
+            <button class="digito" onclick="agregarNumero(0)">0</button>
+            <button class="igual" onclick="calcularResultado()">=</button>
+            <button class="operacion" onclick="establecerOperacion('/')">/</button>
+            <button class="memoria" onclick="guardarMemoria()">Memoria</button>
+            <button class="memoria" onclick="recuperarMemoria()">Recuperar</button>
+            <button class="memoria" onclick="borrarMemoria()">Borrar memoria</button>
+            <button class="lupa" onclick="mostrarLupa()">Mostrar</button>
+        </div>
+    </div>
+
+    <script src="ej18.js"></script>
+</body>
+</html>

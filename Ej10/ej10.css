@@ -1,0 +1,43 @@
+/* Establecemos que el body ocupe todo el ancho y alto */
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Posicionamos el botón Superior-Izquierda */
+#si1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/* Posicionamos el botón Inferior-Izquierda */
+#ii1 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+/* Posicionamos el botón Superior-Derecha */
+#sd1 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Posicionamos el botón Inferior-Derecha */
+#id1 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Centramos el botón Crear Ventana */
+#cv1 {
+    align-items: center;
+}

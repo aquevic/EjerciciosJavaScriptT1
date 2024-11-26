@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.calculadora {
+    padding: 20px;
+    width: 200px;
+    margin: auto;
+}
+
+#calculadora {
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #000;
+}

@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(140, 233, 103);
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+input.error, select.error {
+    background-color: #ffcccc;
+    color: white;
+}
+
+input.error:focus, select.error:focus {
+    background-color: #ff6666;
+}
